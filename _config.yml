@@ -20,9 +20,11 @@ url: https://antonecode.github.io/
 # Deployment
 deploy:
   type: git
-  repo: https://github.com/antonecode/antonecode.github.io
+  # 使用 SSH 密钥提交，无需token
+  repo: git@github.com:antonecode/antonecode.github.io.git
   branch: main
-  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+  # message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+  message: "blog updated"
 
 # update data end --->
 
