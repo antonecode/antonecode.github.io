@@ -6,3 +6,5 @@ node_modules/
 public/
 .deploy*/
 _multiconfig.yml
+# .deploy_git 是 hexo-deployer-git 插件的“工作区”，它本质上是一个Git仓库，不建议删除。
+.deploy_git/
